@@ -2,4 +2,5 @@ fastapi
 uvicorn
 python-dotenv
 requests
+python-multipart
 typing_extensions
