@@ -3,8 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 import pickle
 # from sklearn import tree
-from sklearn.neighbors import KNeighborsClassifier
+# from sklearn.neighbors import KNeighborsClassifier
 from joblib import dump, load
+
 
 origins = [
     "http://localhost.tiangolo.com",
